@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ดวงตา 6/10</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Sarabun', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-bg {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .eye-animation {
+            animation: blink 3s infinite;
+        }
+        @keyframes blink {
+            0%, 90%, 100% { transform: scaleY(1); }
+            95% { transform: scaleY(0.1); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-8">
+                <svg class="mx-auto w-32 h-32 eye-animation" viewBox="0 0 200 120" fill="none">
+                    <ellipse cx="100" cy="60" rx="80" ry="40" fill="white"/>
+                    <circle cx="100" cy="60" r="25" fill="#4F46E5"/>
+                    <circle cx="100" cy="60" r="15" fill="black"/>
+                    <circle cx="105" cy="55" r="5" fill="white"/>
+                    <path d="M20 60 Q100 20 180 60" stroke="#333" stroke-width="3" fill="none"/>
+                    <path d="M20 60 Q100 100 180 60" stroke="#333" stroke-width="3" fill="none"/>
+                </svg>
+            </div>
+            <h1 class="text-5xl font-bold mb-4">ดวงตา</h1>
+            <p class="text-2xl font-light">อวัยวะมหัศจรรย์แห่งการมองเห็น</p>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-xl leading-relaxed text-gray-700">
+                    ดวงตา (The Eye) คืออวัยวะรับภาพ (Photoreceptor) อันน่าทึ่ง ทำหน้าที่แปลงพลังงานแสงให้กลายเป็นสัญญาณประสาท 
+                    แล้วส่งต่อไปยังสมองเพื่อแปลผลเป็นภาพที่เรามองเห็น
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">โครงสร้างและการป้องกัน</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6 text-indigo-700">โครงสร้างภายนอก</h3>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                            <h4 class="font-semibold text-lg mb-2 text-gray-800">👁️ หนังตาและขนตา</h4>
+                            <p class="text-gray-600">ช่วยป้องกันฝุ่นและสิ่งแปลกปลอม</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                            <h4 class="font-semibold text-lg mb-2 text-gray-800">💧 ต่อมน้ำตา</h4>
+                            <p class="text-gray-600">สร้างน้ำตาเพื่อให้ความชุ่มชื้นและมีเอนไซม์ไลโซไซม์สำหรับฆ่าเชื้อแบคทีเรีย</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                            <h4 class="font-semibold text-lg mb-2 text-gray-800">🔍 เยื่อบุตา</h4>
+                            <p class="text-gray-600">เยื่อบางๆ ที่คลุมตาขาวและด้านในของเปลือกตา หากอักเสบจะทำให้เกิดภาวะตาแดง</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <svg width="300" height="200" viewBox="0 0 300 200">
+                        <defs>
+                            <radialGradient id="eyeGrad" cx="50%" cy="50%">
+                                <stop offset="0%" style="stop-color:#87CEEB"/>
+                                <stop offset="100%" style="stop-color:#4682B4"/>
+                            </radialGradient>
+                        </defs>
+                        <g stroke="#8B4513" stroke-width="2">
+                            <line x1="80" y1="70" x2="75" y2="60"/>
+                            <line x1="90" y1="65" x2="85" y2="55"/>
+                            <line x1="100" y1="63" x2="95" y2="53"/>
+                            <line x1="110" y1="63" x2="105" y2="53"/>
+                            <line x1="120" y1="65" x2="115" y2="55"/>
+                            <line x1="130" y1="70" x2="125" y2="60"/>
+                            <line x1="210" y1="70" x2="215" y2="60"/>
+                            <line x1="200" y1="65" x2="205" y2="55"/>
+                            <line x1="190" y1="63" x2="195" y2="53"/>
+                            <line x1="180" y1="63" x2="185" y2="53"/>
+                            <line x1="170" y1="65" x2="175" y2="55"/>
+                            <line x1="160" y1="70" x2="165" y2="60"/>
+                        </g>
+                        <ellipse cx="150" cy="100" rx="70" ry="30" fill="url(#eyeGrad)"/>
+                        <circle cx="150" cy="100" r="20" fill="#4F46E5"/>
+                        <circle cx="150" cy="100" r="12" fill="black"/>
+                        <circle cx="155" cy="95" r="4" fill="white"/>
+                        <path d="M80 100 Q150 70 220 100" stroke="#D2691E" stroke-width="4" fill="none"/>
+                        <path d="M80 100 Q150 130 220 100" stroke="#D2691E" stroke-width="4" fill="none"/>
+                        <circle cx="85" cy="100" r="3" fill="#87CEEB"/>
+                        <text x="60" y="120" font-size="12" fill="#666">น้ำตา</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center mb-12 text-gray-800">โครงสร้างภายใน (ผนังลูกตา 3 ชั้น)</h3>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-xl shadow-lg card-hover">
+                    <h4 class="text-xl font-bold mb-4 text-red-700">ชั้นนอกสุด</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800">สเคลอรา (Sclera)</h5>
+                            <p class="text-sm text-gray-600">ส่วนตาขาว ทำหน้าที่คงรูปร่างของลูกตา</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800">กระจกตา (Cornea)</h5>
+                            <p class="text-sm text-gray-600">เนื้อเยื่อใสที่นูนออกมาด้านหน้าสุด ช่วยในการหักเหแสงเป็นหลัก</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl shadow-lg card-hover">
+                    <h4 class="text-xl font-bold mb-4 text-green-700">ชั้นกลาง</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800">คอรอยด์ (Choroid)</h5>
+                            <p class="text-sm text-gray-600">มีเม็ดสีเมลานินเพื่อป้องกันการสะท้อนของแสงภายในลูกตา</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800">ม่านตา (Iris)</h5>
+                            <p class="text-sm text-gray-600">ส่วนที่มีสีของดวงตา ควบคุมขนาดรูม่านตาเพื่อปรับปริมาณแสง</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg card-hover">
+                    <h4 class="text-xl font-bold mb-4 text-blue-700">ชั้นในสุด</h4>
+                    <div class="bg-white p-4 rounded-lg">
+                        <h5 class="font-semibold text-gray-800">เรตินา (Retina)</h5>
+                        <p class="text-sm text-gray-600">จอประสาทตาซึ่งเป็นที่อยู่ของเซลล์รับแสง</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <svg width="400" height="250" viewBox="0 0 400 250" class="mx-auto">
+                    <circle cx="200" cy="125" r="100" fill="#F8F8FF" stroke="#DDD" stroke-width="3"/>
+                    <circle cx="200" cy="125" r="85" fill="#8B4513" opacity="0.3"/>
+                    <circle cx="200" cy="125" r="75" fill="#FFB6C1" opacity="0.5"/>
+                    <ellipse cx="200" cy="125" rx="25" ry="35" fill="#E0F6FF" opacity="0.8"/>
+                    <circle cx="200" cy="125" r="20" fill="#4F46E5"/>
+                    <circle cx="200" cy="125" r="10" fill="black"/>
+                    <ellipse cx="220" cy="125" rx="15" ry="20" fill="#F0F8FF" opacity="0.8"/>
+                    
+                    <text x="120" y="80" font-size="12" fill="#666">สเคลอรา</text>
+                    <text x="150" y="50" font-size="12" fill="#666">กระจกตา</text>
+                    <text x="180" y="110" font-size="12" fill="#666">ม่านตา</text>
+                    <text x="240" y="110" font-size="12" fill="#666">เลนส์</text>
+                    <text x="280" y="140" font-size="12" fill="#666">เรตินา</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 section-bg">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-white">กลไกการทำงานของดวงตา</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800">🔆 การปรับแสง</h3>
+                    <p class="mb-4 text-gray-600">ม่านตา (Iris) จะควบคุมขนาดของรูม่านตา (Pupil)</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-yellow-400 rounded-full"></div>
+                            <span class="text-sm">ที่แสงจ้า: รูม่านตาจะหรี่เล็กลง</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-gray-600 rounded-full"></div>
+                            <span class="text-sm">ที่แสงน้อย: รูม่านตาจะขยายกว้างขึ้น</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800">🎯 การปรับโฟกัส</h3>
+                    <p class="mb-4 text-gray-600">เลนส์ตา (Lens) จะปรับความโค้งนูนโดยการทำงานของกล้ามเนื้อ Ciliary muscle</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-2 bg-blue-400 rounded-full"></div>
+                            <span class="text-sm">มองวัตถุไกล: เลนส์ตาจะถูกดึงให้แบนลง</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-blue-600 rounded-full"></div>
+                            <span class="text-sm">มองวัตถุใกล้: เลนส์ตาจะถูกบีบให้ป่องนูนขึ้น</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">เซลล์รับแสงบนเรตินา</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-white font-bold">ROD</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800">เซลล์รูปแท่ง</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• ทำงานในที่แสงน้อย</li>
+                        <li>• รับภาพเป็นขาวดำ</li>
+                        <li>• มีความไวแสงสูง</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-red-400 via-green-400 to-blue-400 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-white font-bold">CONE</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800">เซลล์รูปกรวย</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• ทำงานในที่แสงมาก</li>
+                        <li>• ทำให้เห็นภาพสีและรายละเอียดคมชัด</li>
+                        <li>• มี 3 ชนิดที่ไวต่อแสงสีแดง เขียว และน้ำเงิน</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-yellow-50 p-8 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-yellow-700">⭐ โฟเวีย (Fovea)</h3>
+                    <p class="text-gray-700">จุดบนเรตินาที่มีเซลล์รูปกรวยหนาแน่นที่สุด ทำให้มองเห็นภาพคมชัดที่สุด</p>
+                </div>
+                <div class="bg-red-50 p-8 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-red-700">🚫 จุดบอด (Blind Spot)</h3>
+                    <p class="text-gray-700">บริเวณที่เป็นทางออกของเส้นประสาทตา ไม่มีเซลล์รับแสง ทำให้ไม่เห็นภาพหากแสงตกกระทบ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">ขั้นตอนการมองเห็น</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <div class="flex items-center space-x-6 p-6 bg-blue-50 rounded-xl card-hover">
+                        <div class="w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold">1</div>
+                        <p class="text-gray-700">แสงเดินทางผ่าน <strong>กระจกตา</strong> และ <strong>เลนส์ตา</strong> เพื่อหักเหและรวมแสง</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 p-6 bg-green-50 rounded-xl card-hover">
+                        <div class="w-12 h-12 bg-green-500 text-white rounded-full flex items-center justify-center font-bold">2</div>
+                        <p class="text-gray-700">แสงตกกระทบ <strong>เรตินา</strong> ทำให้เกิดเป็นภาพจริงหัวกลับ</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 p-6 bg-yellow-50 rounded-xl card-hover">
+                        <div class="w-12 h-12 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold">3</div>
+                        <p class="text-gray-700">เซลล์รับแสง (Rod & Cone cells) ถูกกระตุ้นและเปลี่ยนสัญญาณแสงเป็น <strong>กระแสประสาท</strong></p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 p-6 bg-purple-50 rounded-xl card-hover">
+                        <div class="w-12 h-12 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold">4</div>
+                        <p class="text-gray-700">กระแสประสาทถูกส่งต่อไปยังเซลล์ประสาทอื่นๆ และรวมกันเป็น <strong>เส้นประสาทตา</strong> (Optic Nerve)</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 p-6 bg-red-50 rounded-xl card-hover">
+                        <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold">5</div>
+                        <p class="text-gray-700">เส้นประสาทตาส่งสัญญาณไปยังสมองส่วน <strong>ซีรีบรัม</strong> (Cerebrum) เพื่อแปลผลเป็นภาพที่เราเข้าใจ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gradient-to-r from-red-50 to-pink-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">ความผิดปกติทางสายตา</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-red-600">👓 สายตาสั้น (Myopia)</h3>
+                    <p class="text-gray-600 mb-3">แสงโฟกัส <strong>หน้า</strong> เรตินา ทำให้มองไกลไม่ชัด</p>
+                    <p class="text-sm text-blue-600">แก้ไขด้วย: เลนส์เว้า</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">👓 สายตายาว (Hyperopia)</h3>
+                    <p class="text-gray-600 mb-3">แสงโฟกัส <strong>หลัง</strong> เรตินา ทำให้มองใกล้ไม่ชัด</p>
+                    <p class="text-sm text-blue-600">แก้ไขด้วย: เลนส์นูน</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">👓 สายตาเอียง (Astigmatism)</h3>
+                    <p class="text-gray-600 mb-3">เกิดจากความโค้งของกระจกตาไม่สม่ำเสมอ</p>
+                    <p class="text-sm text-gray-500">ทำให้แสงมีจุดโฟกัสหลายจุด</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-yellow-600">☁️ ต้อกระจก (Cataract)</h3>
+                    <p class="text-gray-600">ภาวะที่เลนส์ตาขุ่นมัว ทำให้แสงผ่านได้น้อยลง</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
+                    <h3 class="text-xl font-semibold mb-4 text-orange-600">⚠️ ต้อหิน (Glaucoma)</h3>
+                    <p class="text-gray-600">เกิดจากความดันในลูกตาสูงผิดปกติ ซึ่งอาจทำลายเส้นประสาทตาจนตาบอดได้</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">วิวัฒนาการของดวงตา</h2>
+            
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/3">
+                        <svg width="150" height="100" viewBox="0 0 150 100">
+                            <circle cx="75" cy="50" r="30" fill="#FFE4B5" stroke="#DDD" stroke-width="2"/>
+                            <circle cx="75" cy="50" r="15" fill="#8B4513"/>
+                            <text x="75" y="85" text-anchor="middle" font-size="12" fill="#666">Eyespot</text>
+                        </svg>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600">อายสปอต (Eyespots)</h3>
+                        <p class="text-gray-700">โครงสร้างรับแสงยุคแรกสุด ทำได้เพียงรับรู้ทิศทางของแสง พบในพลานาเรีย</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                    <div class="md:w-1/3">
+                        <svg width="150" height="100" viewBox="0 0 150 100">
+                            <g>
+                                <circle cx="60" cy="40" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="75" cy="35" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="90" cy="40" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="55" cy="55" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="70" cy="50" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="85" cy="55" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="60" cy="70" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="75" cy="65" r="8" fill="#4F46E5" opacity="0.8"/>
+                                <circle cx="90" cy="70" r="8" fill="#4F46E5" opacity="0.8"/>
+                            </g>
+                            <text x="75" y="90" text-anchor="middle" font-size="12" fill="#666">Compound Eye</text>
+                        </svg>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">ตาประกอบ (Compound Eyes)</h3>
+                        <p class="text-gray-700">ประกอบด้วยหน่วยรับภาพเล็กๆ (Ommatidium) จำนวนมาก ทำให้เห็นภาพเป็นโมเสก เหมาะกับการจับการเคลื่อนไหว พบในแมลง</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/3">
+                        <svg width="150" height="100" viewBox="0 0 150 100">
+                            <circle cx="75" cy="50" r="35" fill="#F0F8FF" stroke="#4682B4" stroke-width="3"/>
+                            <circle cx="75" cy="50" r="20" fill="#87CEEB"/>
+                            <circle cx="75" cy="50" r="12" fill="#4F46E5"/>
+                            <circle cx="75" cy="50" r="6" fill="black"/>
+                            <circle cx="78" cy="47" r="2" fill="white"/>
+                            <text x="75" y="95" text-anchor="middle" font-size="12" fill="#666">Camera Eye</text>
+                        </svg>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h3 class="text-2xl font-semibold mb-4 text-purple-600">ตาแบบกล้องถ่ายรูป (Camera Eyes)</h3>
+                        <p class="text-gray-700">มีเลนส์เดียวเพื่อรวมแสงลงบนเรตินา ให้ภาพที่คมชัด พบในสัตว์มีกระดูกสันหลังรวมถึงมนุษย์</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-6">
+                <svg class="mx-auto w-16 h-16" viewBox="0 0 200 120" fill="none">
+                    <ellipse cx="100" cy="60" rx="80" ry="40" fill="white" opacity="0.2"/>
+                    <circle cx="100" cy="60" r="25" fill="white" opacity="0.3"/>
+                    <circle cx="100" cy="60" r="15" fill="white" opacity="0.5"/>
+                </svg>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">ดวงตา</h3>
+            <p class="text-lg opacity-90">นำเสนอโดยนักเรียนชั้นมัธยมศึกษาปีที่ 6/10</p>
+            <p class="mt-4 opacity-75">เสนอ</p>
+            <p class="opacity-75">คุณครูอานนท์ เมืองแก้ว</p>
+            <p class="mt-2 opacity-75">รายวิชาชีววิทยาเพิ่มเติม 5</p>
+        </div>
+    </footer>
+</body>
+</html>
